@@ -22,6 +22,9 @@ body {
 .main-header {
   background-image: url(../img/banner.jpg);
   text-align: center;
+  padding: 1px; /* Collapse Margin */
+
+  margin-top: 100px;
 }
 /**
  * 设置头像 img
@@ -29,10 +32,15 @@ body {
 .main-header__avatar {
   display: block; /* 设为 block */
   margin: 0 auto; /* 居中，为什么 .main_header 中的 text-align:center 没有对头像生效？*/
+  border: 3px solid white;
 
   box-shadow: 0 0px 2px 1px rgba(0,0,0,0.2); /* 为头像设置阴影 */
   border-radius: 999px; /* 头像变成圆形，为什么是 999px ?? */
   /* 答案在这里：https://github.com/yisibl/blog/issues/2 */
+
+  /* 头像凸出容器 */
+  margin-top: -70px;
+  margin-bottom: 10px;
 }
 /**
  * 设定标题字体
@@ -43,5 +51,7 @@ body {
   font-family: 'Open Sans','helvetica',arial,sans-serif;
   text-shadow: 0 1px rgba(0,0,0,0.3);
   color: #ffffff; /* white */
-}
 
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
