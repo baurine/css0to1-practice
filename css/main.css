@@ -15,3 +15,18 @@ body {
   width: 960px;
   margin: 0 auto;
 }
+
+/**
+ * 实现头部容器
+ */
+.main-header {
+  background-image: url(../img/banner.jpg);
+  text-align: center;
+}
+/**
+ * 头像 img 设为 block
+ */
+.main-header__avatar {
+  display: block;
+  margin: 0 auto;
+}
