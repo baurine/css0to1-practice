@@ -13,7 +13,7 @@ body {
  */
 .container {
   width: 960px;
-  margin: 0 auto;
+  margin: 100px auto;
 }
 
 /**
@@ -23,8 +23,6 @@ body {
   background-image: url(../img/banner.jpg);
   text-align: center;
   padding: 1px; /* Collapse Margin */
-
-  margin-top: 100px;
 }
 /**
  * 设置头像 img
@@ -52,6 +50,6 @@ body {
   text-shadow: 0 1px rgba(0,0,0,0.3);
   color: #ffffff; /* white */
 
-  margin-bottom: 20px;
-  margin-top: 0px;
+  margin: 0 auto;
+  margin-bottom: 20px; /* 注意，后面 style 会覆盖前面的 style，所以要注意次序 */
 }
