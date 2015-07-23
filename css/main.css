@@ -24,11 +24,15 @@ body {
   text-align: center;
 }
 /**
- * 头像 img 设为 block
+ * 设置头像 img
  */
 .main-header__avatar {
-  display: block;
-  margin: 0 auto;
+  display: block; /* 设为 block */
+  margin: 0 auto; /* 居中，为什么 .main_header 中的 text-align:center 没有对头像生效？*/
+
+  box-shadow: 0 0px 2px 1px rgba(0,0,0,0.2); /* 为头像设置阴影 */
+  border-radius: 999px; /* 头像变成圆形，为什么是 999px ?? */
+  /* 答案在这里：https://github.com/yisibl/blog/issues/2 */
 }
 /**
  * 设定标题字体
