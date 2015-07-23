@@ -1,0 +1,9 @@
+/**
+ * 固定背景
+ */
+body {
+  background: url(../img/bg5.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
