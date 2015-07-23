@@ -30,3 +30,14 @@ body {
   display: block;
   margin: 0 auto;
 }
+/**
+ * 设定标题字体
+ */
+.main-header h1 {
+  font-weight: 300;
+  font-size: 50px;
+  font-family: 'Open Sans','helvetica',arial,sans-serif;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  color: #ffffff; /* white */
+}
+
