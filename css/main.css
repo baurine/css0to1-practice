@@ -6,6 +6,17 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+
+  /* 全局字体风格 */
+  font-family: 'Open Sans','helvetica',arial,sans-serif;
+  font-weight: 300;
+  color: #62686f;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  /* 虽然在 body 里已经设置了 font-weight: 300，这里仍然需要，不能省略*/
+  font-weight: 300;
+  color: #333;
 }
 
 /**
@@ -46,9 +57,7 @@ body {
   margin: 0 auto;
   margin-bottom: 20px; /* 注意，后面 style 会覆盖前面的 style，所以要注意次序 */
 
-  font-weight: 300;
   font-size: 50px;
-  font-family: 'Open Sans','helvetica',arial,sans-serif;
-  text-shadow: 0 1px rgba(0,0,0,0.3);
   color: #ffffff; /* white */
+  text-shadow: 0 1px rgba(0,0,0,0.3);
 }
