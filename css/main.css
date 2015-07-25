@@ -250,8 +250,35 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+/* 开始设置页面内容之 Leave a Message 部分 */
+.contact input,
+.contact textarea {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
 
+.contact button {
+  display: block;
+  width: 100%;
+  padding: 8px;
 
+  border: none;
+  border-radius: 9999px;
 
+  background: #ffd524;
 
+  cursor: pointer;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  box-shadow: 0 3px 0 #daae1d;
+}
+
+.contact form {
+  width: 40%;
+  margin: 0 auto; /* 居中 */
+}
