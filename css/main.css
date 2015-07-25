@@ -107,13 +107,16 @@ h1, h2, h3, h4, h5, h6 {
   padding: 30px 60px;
 }
 
-.whatido {
-  /* 居中元素 */
+.info-section header {
+  margin-bottom: 60px;
+
+  /* 居中所有 header */
   text-align: center;
 }
 
-.info-section header {
-  margin-bottom: 60px;
+.whatido ul {
+  /* 居中元素 */
+  text-align: center;
 }
 
 /* 设置标题字体风格 */
@@ -165,4 +168,32 @@ h1, h2, h3, h4, h5, h6 {
 .whatido__skill--product {
   background-image: url(../img/skill-product.png);
 }
+
+/* 开始设置页面内容之 Work & Education 部分 */
+.education-experience__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.education-experience__list li {
+  overflow: hidden;
+
+  margin-bottom: 20px;
+}
+
+.education-experience__list li img {
+  width: 180px;
+  float: left;
+
+  margin-right: 20px;
+}
+
+.education-experience__list li div {
+  overflow: hidden;
+}
+
+
+
+
 
