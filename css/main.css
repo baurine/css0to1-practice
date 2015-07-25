@@ -1,5 +1,15 @@
 /*******************************************/
 /* 全局 */
+
+/* 使用 border-box 模型 */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /**
  * 固定背景
  */
@@ -169,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url(../img/skill-product.png);
 }
 
-/* 开始设置页面内容之 Work & Education 部分 */
+/* 开始设置页面内容之 Education & Experience 部分 */
 .education-experience__list {
   list-style: none;
   margin: 0;
@@ -193,7 +203,33 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
+/* 开始设置页面内容之 Photos 部分 */
+.photos header {
+  margin-bottom: 30px;
+}
 
+.photos__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.photos__list:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.photos__list li {
+  /* 注意这里不能用 inline-block，否则会有额外的 margin */
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.photos__list li img {
+  width: 100%;
+}
 
 
 
