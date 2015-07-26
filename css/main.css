@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
   /* 消除默认样式 */
   list-style: none;
   /* 消除默认间隔 */
-  padding: 0;
+  padding: 1px;
   margin: 0;
 }
 
@@ -297,5 +297,61 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8px;
 }
 
+/**********************************/
+/* 为移动设备适配 */
+@media only screen and (max-width: 480px) {
+  /* 调整外围容器宽度 */
+  .container {
+    width: 100%;
+  }
 
+  /* 减小标题字号 */
+  .main-header h1 {
+    font-size: 32px;
+  }
 
+  .main-nav ul li {
+    display: block;
+  }
+
+  /* 减小 padding */
+  .info-section {
+    padding: 10px;
+  }
+
+  /* 一行显示一个 item */
+  .whatido__skill {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .education-experience header h2 span {
+    display: block;
+  }
+  .education-experience__list li img {
+    display: block;
+    float: none;  /* 取消 float */
+    margin: 0 auto; /* 居中 */
+  }
+  .photos__list li {
+    float: none;
+    width: 100%;
+  }
+  .get-in-touch__list li {
+    width: 50%;
+  }
+  .get-in-touch__list li img {
+    width: 80%;
+  }
+
+  .contact form {
+    width: 100%;
+  }
+  .contact button {
+    margin-bottom: 10px;
+  }
+  .form-item label {
+    position: static;
+    padding: 0px;
+  }
+}
