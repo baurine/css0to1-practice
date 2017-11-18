@@ -1,3 +1,5 @@
+**This repo is deprecated! Merge to <https://github.com/baurine/frontend-basic> repo.**
+
 # Sike CSS
 
 Learn CSS in [sike.io](http://sike.io).
@@ -6,8 +8,8 @@ Learn CSS in [sike.io](http://sike.io).
 
 1. [Sike CSS Note](./note/sike-css-note.md)
 
-## Samples
+## Sample
 
-1. <http://baurine.github.io/sike-css/>
+[Profile Page](http://baurine.github.io/sike-css/)
 
-![](./note/art/1_profile_page.png)
+![](./note/art/profile-page.png)

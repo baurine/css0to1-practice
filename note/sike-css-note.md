@@ -6,7 +6,7 @@ Learn CSS in [sike.io](http://sike.io).
 
 1. <http://baurine.github.io/sike-css/>
 
-![](./art/1_profile_page.png)
+![](./art/profile-page.png)
 
 ## Note
 
